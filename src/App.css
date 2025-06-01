@@ -1,0 +1,52 @@
+#album-art {
+  max-width: 500px;
+  max-height: fit-content;
+}
+
+#root {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+/* #bgimage {
+  position: absolute;
+  background-size: contain;
+  top: 0px;
+  width: 500px;
+  height: 300px;
+  filter: blur(20px);
+  z-index: -1;
+} */
+
+#info {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  padding-bottom: 5px;
+}
+
+#track-info {
+  font-size: 80pt;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  text-wrap: balance;
+  overflow: hidden;
+  align-items: stretch;
+  -webkit-text-stroke: 0px black;
+}
+
+#album-info {
+  font-size: 60pt;
+  padding-left: 15px;
+}
+
+#track-name {
+  padding-left: 15px;
+}
+
+hr.solid {
+  margin-left: 0px;
+  width: 1300px;
+  border: 3px solid #5e63bb;
+}
